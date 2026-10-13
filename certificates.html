@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates | Franz Valderama</title>
+    <meta name="description" content="Certificates earned by Franz Jandrei M. Valderama.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-expand" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></symbol>
+        <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    </svg>
+
+    <canvas id="waves" aria-hidden="true"></canvas>
+
+    <header class="topnav">
+        <div class="container">
+            <a href="index.html" class="logo"><span class="logo-mark">FV</span>Franz Valderama</a>
+            <nav class="nav-links" id="nav-links" aria-label="Main">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="certificates.html" class="active" aria-current="page">Certificates</a>
+            </nav>
+            <a href="https://github.com/dreijandrei" class="nav-icon" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a>
+            <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><svg class="icon"><use href="#i-menu"/></svg></button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="page-intro">
+                <p class="eyebrow">Certificates</p>
+                <h1>Programs I've completed</h1>
+                <p>Challenges and courses that pushed me to learn something new.</p>
+            </section>
+
+            <div class="timeline">
+                <div class="tl-item reveal">
+                    <div class="tl-year">2025</div>
+                    <div class="tl-entry">
+                        <article class="cert">
+                            <button class="cert-thumb" data-image="images/cert-emerson-daph.jpeg" aria-label="View certificate full size">
+                                <img src="images/cert-emerson-daph.jpeg" alt="Certificate of Accomplishment, Emerson × DAPH National Data Challenge, awarded to Franz Jandrei Marquez Valderama" loading="lazy">
+                            </button>
+                            <div>
+                                <p class="cert-date">June 21, 2025</p>
+                                <h2>Emerson × DAPH: National Data Challenge</h2>
+                                <p>Certificate of Accomplishment from Emerson and Data Analytics Philippines for completing their national data challenge program.</p>
+                                <p class="cert-id">Credential no. <span>DAPh-25-723468</span></p>
+                                <button class="btn btn-outline" data-image="images/cert-emerson-daph.jpeg" aria-label="View certificate full size"><svg class="icon"><use href="#i-expand"/></svg>View certificate</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Franz Jandrei M. Valderama</p>
+            <nav aria-label="Footer">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="certificates.html">Certificates</a>
+                <a href="https://github.com/dreijandrei" target="_blank" rel="noopener">GitHub</a>
+            </nav>
+        </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Image preview">
+        <button class="lightbox-close" aria-label="Close"><svg class="icon"><use href="#i-x"/></svg></button>
+        <img src="" alt="">
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
